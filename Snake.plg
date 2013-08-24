@@ -1,0 +1,113 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Snake - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Snake.res" /d "NDEBUG" /d "_AFXDLL" "D:\Backup\我的文档\Microsoft Visual Studio 6.0\MyProjects\VC++\MFC\贪吃蛇\Snake.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Snake.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Backup\我的文档\Microsoft Visual Studio 6.0\MyProjects\VC++\MFC\贪吃蛇\MainFrm.cpp"
+"D:\Backup\我的文档\Microsoft Visual Studio 6.0\MyProjects\VC++\MFC\贪吃蛇\Snake.cpp"
+"D:\Backup\我的文档\Microsoft Visual Studio 6.0\MyProjects\VC++\MFC\贪吃蛇\SnakeCore.cpp"
+"D:\Backup\我的文档\Microsoft Visual Studio 6.0\MyProjects\VC++\MFC\贪吃蛇\SnakeDoc.cpp"
+"D:\Backup\我的文档\Microsoft Visual Studio 6.0\MyProjects\VC++\MFC\贪吃蛇\SnakeSetDlg.cpp"
+"D:\Backup\我的文档\Microsoft Visual Studio 6.0\MyProjects\VC++\MFC\贪吃蛇\SnakeView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Snake.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Backup\我的文档\Microsoft Visual Studio 6.0\MyProjects\VC++\MFC\贪吃蛇\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Snake.pdb" /machine:I386 /out:"Release/Snake.exe" 
+".\Release\MainFrm.obj"
+".\Release\Snake.obj"
+".\Release\SnakeCore.obj"
+".\Release\SnakeDoc.obj"
+".\Release\SnakeSetDlg.obj"
+".\Release\SnakeView.obj"
+".\Release\StdAfx.obj"
+".\Release\Snake.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+Snake.cpp
+SnakeCore.cpp
+SnakeDoc.cpp
+SnakeSetDlg.cpp
+SnakeView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Snake.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Snake - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Snake.res" /d "_DEBUG" /d "_AFXDLL" "D:\Backup\我的文档\Microsoft Visual Studio 6.0\MyProjects\VC++\MFC\贪吃蛇\Snake.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP10.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Snake.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Backup\我的文档\Microsoft Visual Studio 6.0\MyProjects\VC++\MFC\贪吃蛇\MainFrm.cpp"
+"D:\Backup\我的文档\Microsoft Visual Studio 6.0\MyProjects\VC++\MFC\贪吃蛇\Snake.cpp"
+"D:\Backup\我的文档\Microsoft Visual Studio 6.0\MyProjects\VC++\MFC\贪吃蛇\SnakeCore.cpp"
+"D:\Backup\我的文档\Microsoft Visual Studio 6.0\MyProjects\VC++\MFC\贪吃蛇\SnakeDoc.cpp"
+"D:\Backup\我的文档\Microsoft Visual Studio 6.0\MyProjects\VC++\MFC\贪吃蛇\SnakeSetDlg.cpp"
+"D:\Backup\我的文档\Microsoft Visual Studio 6.0\MyProjects\VC++\MFC\贪吃蛇\SnakeView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP10.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Snake.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Backup\我的文档\Microsoft Visual Studio 6.0\MyProjects\VC++\MFC\贪吃蛇\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP12.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Snake.pdb" /debug /machine:I386 /out:"Debug/Snake.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\Snake.obj"
+".\Debug\SnakeCore.obj"
+".\Debug\SnakeDoc.obj"
+".\Debug\SnakeSetDlg.obj"
+".\Debug\SnakeView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Snake.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP12.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+Snake.cpp
+SnakeCore.cpp
+SnakeDoc.cpp
+SnakeSetDlg.cpp
+SnakeView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Snake.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
